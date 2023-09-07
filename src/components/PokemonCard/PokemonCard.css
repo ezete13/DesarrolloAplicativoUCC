@@ -1,0 +1,271 @@
+/******** Pokemon Types Background ********/
+
+
+.bg-grass {
+    background-color: #78C850 !important;    
+}
+
+.bg-grass::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+
+.bg-fire {
+    background-color: #F05030 !important ;
+} 
+
+.bg-fire::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+
+.bg-water {
+    background-color: #3899F8 !important ;
+} 
+
+.bg-water::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+
+.bg-bug {
+    background-color: #A8B820 !important ;
+} 
+
+.bg-bug::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-normal {
+    background-color: #A8A090 !important ;
+} 
+
+.bg-normal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-poison {
+    background-color: #B058A0 !important ;
+} 
+.bg-poison::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-fairy {
+    background-color: #E79FE7 !important ;
+} 
+.bg-fairy::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-electric {
+    background-color: #F8D030 !important ;
+} 
+.bg-electric::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-ground {
+    background-color: #E9D6A4 !important ;
+} 
+.bg-ground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-fighting {
+    background-color: #A05038 !important ;
+} 
+.bg-fighting::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-psychic {
+    background-color: #F870A0 !important ;
+} 
+.bg-psychic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-rock {
+    background-color: #B8A058 !important ;
+} 
+.bg-rock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-ghost {
+    background-color: #6060B0 !important ;
+} 
+.bg-ghost::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-ice {
+    background-color: #58C8E0 !important ;
+} 
+.bg-ice::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+.bg-dragon {
+    background-color: #7860E0 !important ;
+} 
+.bg-dragon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/10/ad/ba/10adba89876e364c3f6c044d90f88fa5.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.04; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+/******************************************/
+
+.card{
+    max-width: 22em;
+    max-height: auto;
+    position: relative;
+}
+
+.card-hover:hover {
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+  .card-hover {
+    transition: transform 0.2s ease-in-out;
+}
+  
+
+.circle-back { 
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 50%;
+    z-index: 0;  
+}
+
+ .card img {
+    z-index: 1;
+    align-items: center;
+} 
+
+.z-index{
+    z-index: 2;
+}
+
+

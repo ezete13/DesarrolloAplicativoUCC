@@ -1,0 +1,51 @@
+.bg-item {
+    background-color: #e5e5e5 !important;    
+}
+
+.bg-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/35/b5/69/35b569078a9ca70473c6fc0b2a4cec89.jpg') center center no-repeat; /* URL de la imagen superpuesta */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la tarjeta */
+    opacity: 0.1; /* Opacidad del 50% para la imagen superpuesta */
+    z-index: 0;
+}
+
+.card-items{
+    max-width: 22em;
+    max-height: auto;
+    position: relative;
+}
+
+.card-hover-item:hover {
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+  .card-hover-item {
+    transition: transform 0.2s ease-in-out;
+}
+  
+
+.circle-back-item { 
+    background-color: rgba(137, 137, 137, 0.508); 
+    border-radius: 80%;
+    z-index: 0;  
+    height: 7rem;
+    width: auto;
+}
+
+ .card-items img {
+    z-index: 1;
+    align-items: center;
+} 
+
+.z-index-item{
+    z-index: 1;
+}
+ 
